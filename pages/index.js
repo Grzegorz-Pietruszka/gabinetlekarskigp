@@ -1,6 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Section from "../components/section/Section";
+import Header from "../components/header/Header";
+import Services from "../components/Services/services";
+import Footer from "../components/Footer/Footer";
+import ContactInfo from "../components/ContactInfo/ContactInfo";
 
 export default function Home() {
   return (
@@ -12,7 +17,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Grzegorz Pietruszka Gabinet Lekarski</h1>
+        <Header />
+        <Section backgroundColour={"yellow"}>Section component</Section>
+        <Services />
+        <ContactInfo />
+        <Footer />
       </main>
     </div>
   );
