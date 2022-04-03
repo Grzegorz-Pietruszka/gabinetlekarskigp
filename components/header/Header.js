@@ -8,7 +8,7 @@ import Heading from "../Heading/Heading";
 
 export default function Header() {
   return (
-    <Section backgroundColour={"purple"}>
+    <Section backgroundColour={"#41b7d8"}>
       <Container>
         <Row>
           <Col md={4}>
