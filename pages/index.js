@@ -13,7 +13,7 @@ export default function Home() {
         <title>Create Next App</title>
         <meta
           name="description"
-          content="Grzegorz Pieetruszka Gabinet Lekarski"
+          content="Grzegorz Pietruszka Gabinet Lekarski"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
